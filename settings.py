@@ -1,10 +1,10 @@
 # Please note that MONGO_HOST and MONGO_PORT could very well be left
 # out as they already default to a bare bones local 'mongod' instance.
-MONGO_HOST = ''
-MONGO_PORT = 00000
-MONGO_USERNAME = ''
-MONGO_PASSWORD = ''
-MONGO_DBNAME = ''
+MONGO_HOST = 'ds034208.mongolab.com'
+MONGO_PORT = 34208
+MONGO_USERNAME = 'MongoLab01'
+MONGO_PASSWORD = 'OT_v1eH8U5EFLS_4Vk.IRCBh.yGBbh1QfIDX20jwPR0-'
+MONGO_DBNAME = 'MongoLab01'
 
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
 # (if you omit this line, the API will default to ['GET'] and provide
